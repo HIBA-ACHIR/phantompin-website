@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhantomPin - Set a virtual GPS location anywhere on Earth</title>
+    <meta name="description" content="PhantomPin lets you set a virtual GPS location anywhere on Earth using Android's official Mock Location API. No root required, privacy first.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-pin">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            PhantomPin
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How it Works</a>
+            <a href="#download" class="btn-outline">Get the App</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <div class="badge">No Root Required</div>
+            <h1>GPS Teleport.<br>Anywhere on Earth.</h1>
+            <p>PhantomPin lets you set a virtual GPS location instantly. Built for developers testing location-aware apps and privacy-conscious users.</p>
+            <div class="cta-group">
+                <a href="#download" class="btn-primary">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M22.64 10.59l-7.2-7.22a2 2 0 0 0-2.83 0L2 13.98v5.83a2 2 0 0 0 2 2h5.83l10.6-10.6a2 2 0 0 0 .21-2.62z"></path><line x1="8" y1="18" x2="21" y2="18"></line></svg>
+                    Download APK
+                </a>
+                <a href="#how-it-works" class="btn-secondary">View Setup Guide</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper fade-in delay-1">
+            <img src="assets/hero.png" alt="PhantomPin App Interface showing a glowing purple pin on a dark map" class="hero-image">
+            <div class="glow-effect"></div>
+        </div>
+    </header>
+
+    <section id="features" class="features section">
+        <h2 class="section-title fade-in">Powerful Features</h2>
+        <p class="section-subtitle fade-in">Designed using official Android Mock Location APIs.</p>
+        
+        <div class="features-grid">
+            <div class="feature-card fade-in">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </div>
+                <h3>Instant Search</h3>
+                <p>Search any city, street, or landmark—or just tap the map to drop a pin instantly.</p>
+            </div>
+            
+            <div class="feature-card fade-in delay-1">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                </div>
+                <h3>One-Tap Start</h3>
+                <p>One-tap Start and Stop. Your virtual location activates immediately across all apps.</p>
+            </div>
+            
+            <div class="feature-card fade-in delay-2">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <h3>Privacy First</h3>
+                <p>No account, no login. Your real GPS position is never read, stored, or transmitted.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works section">
+        <h2 class="section-title fade-in">Easy 3-Step Setup</h2>
+        <p class="section-subtitle fade-in">Takes about 2 minutes. No root required.</p>
+        
+        <div class="steps-container">
+            <div class="step-card fade-in">
+                <div class="step-number">1</div>
+                <h3>Enable Developer Options</h3>
+                <p>Go to <strong>Settings &rarr; About Phone</strong> and tap <strong>"Build Number"</strong> 7 times.</p>
+            </div>
+            
+            <div class="step-card fade-in delay-1">
+                <div class="step-number">2</div>
+                <h3>Select Mock Location App</h3>
+                <p>Open Developer Options, tap <strong>"Select mock location app"</strong>, and choose PhantomPin.</p>
+            </div>
+            
+            <div class="step-card fade-in delay-2">
+                <div class="step-number">3</div>
+                <h3>Start Teleporting</h3>
+                <p>Open PhantomPin, drop a pin anywhere on the world map, and tap <strong>Start</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="cta-section section fade-in">
+        <div class="cta-card">
+            <h2>Ready to control your location?</h2>
+            <p>Get PhantomPin for your Android device today.</p>
+            <a href="#" class="btn-primary large">Download Latest APK</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-pin">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    PhantomPin
+                </div>
+                <p>Virtual GPS location tool for developers and privacy-conscious users.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 PhantomPin Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
